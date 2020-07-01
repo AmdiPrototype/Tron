@@ -1,0 +1,18 @@
+[Wed Jul 01 12:16:34.207866 2020] [mpm_prefork:notice] [pid 23] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jul 01 12:16:34.207940 2020] [core:notice] [pid 23] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jul 01 12:34:57.742597 2020] [core:warn] [pid 24] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jul 01 12:34:57.745176 2020] [mpm_prefork:notice] [pid 24] AH00163: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jul 01 12:34:57.745205 2020] [core:notice] [pid 24] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jul 01 13:05:53.976679 2020] [php7:emerg] [pid 45] [client 172.18.0.1:37754] PHP Parse error:  syntax error, unexpected '<' in /var/www/html/php/login.php on line 21, referer: http://172.18.0.3/
+[Wed Jul 01 13:06:05.553170 2020] [php7:emerg] [pid 37] [client 172.18.0.1:37766] PHP Parse error:  syntax error, unexpected '<' in /var/www/html/php/login.php on line 21, referer: http://172.18.0.3/
+[Wed Jul 01 13:39:54.270659 2020] [php7:error] [pid 41] [client 172.18.0.1:38202] script '/var/www/html/login.php' not found or unable to stat
+[Wed Jul 01 13:43:13.312149 2020] [php7:error] [pid 43] [client 172.18.0.1:38352] script '/var/www/html/login.php' not found or unable to stat
+[Wed Jul 01 14:04:35.562199 2020] [php7:error] [pid 46] [client 172.18.0.1:38746] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/post_curl.php:8\nStack trace:\n#0 {main}\n  thrown in /var/www/html/post_curl.php on line 8
+[Wed Jul 01 14:04:39.062642 2020] [php7:error] [pid 48] [client 172.18.0.1:38750] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/post_curl.php:8\nStack trace:\n#0 {main}\n  thrown in /var/www/html/post_curl.php on line 8
+[Wed Jul 01 14:04:56.573570 2020] [php7:error] [pid 32] [client 172.18.0.1:38754] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/post_curl.php:8\nStack trace:\n#0 {main}\n  thrown in /var/www/html/post_curl.php on line 8
+[Wed Jul 01 14:05:34.634865 2020] [php7:error] [pid 41] [client 172.18.0.1:38760] script '/var/www/html/post_curl.php' not found or unable to stat
+[Wed Jul 01 14:05:53.354894 2020] [php7:error] [pid 43] [client 172.18.0.1:38770] PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/www/html/php/post_curl.php:8\nStack trace:\n#0 {main}\n  thrown in /var/www/html/php/post_curl.php on line 8
+[Wed Jul 01 14:40:01.466265 2020] [php7:error] [pid 49] [client 172.18.0.1:39228] script '/var/www/html/php/logi.php' not found or unable to stat
+[Wed Jul 01 14:41:24.549136 2020] [php7:emerg] [pid 32] [client 172.18.0.1:39252] PHP Parse error:  syntax error, unexpected '"utilisateur ou le mot de pass' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /var/www/html/php/login.php on line 23
+[Wed Jul 01 14:41:37.616276 2020] [php7:emerg] [pid 45] [client 172.18.0.1:39256] PHP Parse error:  syntax error, unexpected ''Skyblog Itakala;\r' (T_ENCAPSED_AND_WHITESPACE) in /var/www/html/php/login.php on line 21
+[Wed Jul 01 14:41:38.504964 2020] [php7:emerg] [pid 51] [client 172.18.0.1:39260] PHP Parse error:  syntax error, unexpected ''Skyblog Itakala;\r' (T_ENCAPSED_AND_WHITESPACE) in /var/www/html/php/login.php on line 21
