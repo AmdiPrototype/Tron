@@ -35,7 +35,7 @@
 				<span class="login100-form-title p-b-41">
 					ITAKALA
 				</span>
-				<form action="php/login.php" method="post" class="login100-form p-b-33 p-t-5">
+				<!--<form action="php/login.php" method="post" class="login100-form p-b-33 p-t-5">
 
 					<div class="wrap-input100 validate-input">
 						<input class="input100" name="username" placeholder="Login">
@@ -53,7 +53,7 @@
 						</button>       
 					</div>
 
-				</form>
+				</form>-->
 			</div>
 		</div>
 	</div>
